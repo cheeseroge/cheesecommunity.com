@@ -1,0 +1,866 @@
+@font-face{
+    font-family: 'Uni Sans Heavy Caps Italic';
+    src: url(fonts/unisansheavycapsitalic.ttf);
+    src: url(fonts/unisansheavycapsitalic.ttf) format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'A1011Helvetika  TYGRA';
+    src: url(fonts/a1011helvetika_condbolditalic.ttf);
+    src: url(fonts/a1011helvetika_condbolditalic.ttf) format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+	overflow-x: hidden;
+}
+
+.wow {
+    margin: -4px;
+}
+
+.linek {
+    position: absolute;
+    top: 63px;
+    left: 275px;
+    transform: scale(1.405);
+}
+
+.line {
+    position: absolute;
+    top: 63px;
+    left: 275px;
+    transform: scale(1.405);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.line:hover {
+    opacity: 0%;
+}
+
+.t {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 1000px;
+    left: 1158px;
+    transform: translate(-50%, -50%);
+    font-family: 'A1011Helvetika  TYGRA';
+    color: #fabc01;
+    font-size: 125px;
+}
+.t1 {
+    width: 800px;
+    height: 150px;
+    position: absolute;
+    top: 1130px;
+    left: 1487px;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+.help {
+    position: absolute;
+    filter: blur(4px);
+    mix-blend-mode: lighten;
+    top: 1300px;
+    left: -50px;
+    transform: scale(1.05);
+    opacity: 70%;
+    overflow: hidden;
+    width: 1920px;
+
+}
+.channels {
+    mix-blend-mode: lighten;
+    background-color: #2f2f2f;
+    left: -368px;
+    top: 891px;
+    width: 1920px;
+    height: 1100px;
+}
+
+.ourcommunityis {
+    width: 800px;
+    height: 150px;
+    position: relative;
+    top: 125px;
+    left: 1070px;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 62px;
+}
+
+.mob {
+    position: fixed;
+    transform: scale(0.8);
+    left: 5px;
+    top: 5px;
+}
+
+.cheese {
+    position: absolute;
+    left: 261px;
+    top: 1500px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.cheese:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.cheesetext {
+    font-family: 'Uni Sans Heavy Caps Italic', "Uni Sans Heavy Caps Italic";
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 410px;
+    top: 50px;
+}
+.cheesetext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 410px;
+    top: 45px;
+}
+
+.funk {
+    position: absolute;
+    left: 261px;
+    top: 1680px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.funk:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.funktext {
+    font-family: 'Uni Sans Heavy Caps Italic', "Uni Sans Heavy Caps Italic";
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 410px;
+    top: 110px;
+}
+.funktext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 410px;
+    top: 105px;
+}
+
+.prank {
+    position: absolute;
+    left: 261px;
+    top: 1860px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.prank:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.pranktext {
+    font-family: 'Uni Sans Heavy Caps Italic', "Uni Sans Heavy Caps Italic";
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 410px;
+    top: 160px;
+}
+.pranktext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 410px;
+    top: 155px;
+}
+
+.darttem {
+    position: absolute;
+    left: 261px;
+    top: 2040px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.darttem:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.darttemtext {
+    font-family: 'Uni Sans Heavy Caps Italic', "Uni Sans Heavy Caps Italic";
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 410px;
+    top: 220px;
+}
+.darttemtext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 410px;
+    top: 215px;
+}
+
+.cheeseroge {
+    position: absolute;
+    left: 1000px;
+    top: 1500px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.cheeseroge:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.cheeserogetext {
+    font-family: 'Uni Sans Heavy Caps Italic', "Uni Sans Heavy Caps Italic";
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 1150px;
+    top: -445px;
+}
+.cheeserogetext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 1150px;
+    top: -450px;
+}
+
+.af {
+    position: absolute;
+    left: 1000px;
+    top: 1680px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.af:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.aftext {
+    font-family: 'Uni Sans Heavy Caps Italic', "Uni Sans Heavy Caps Italic";
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 1150px;
+    top: -385px;
+}
+.aftext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 1150px;
+    top: -390px;
+}
+
+.roma {
+    position: absolute;
+    left: 1000px;
+    top: 1860px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.roma:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.romatext {
+    font-family: 'Uni Sans Heavy Caps Italic', "Uni Sans Heavy Caps Italic";
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 1150px;
+    top: -340px;
+}
+.romatext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 1150px;
+    top: -345px;
+}
+
+.mgames {
+    position: absolute;
+    left: 1000px;
+    top: 2040px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.mgames:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.mtext {
+    font-family: 'Uni Sans Heavy Caps Italic', "Uni Sans Heavy Caps Italic";
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 1150px;
+    top: -285px;
+}
+.mtext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 1150px;
+    top: -290px;
+}
+
+.ft {
+    position: absolute;
+    left: 650px;
+    top: 2220px;
+    -webkit-transition: all 0.6s ease;;
+    -moz-transition: all 1s ease;;
+    -o-transition: all 1s ease;;
+    transition: all 1s ease;
+}
+
+.ft:hover {
+    transform: rotateY(360deg);
+    z-index: 2;
+}
+.ram {
+    position: absolute;
+    left: 550px;
+    top: 2220px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.ram:hover {
+    transform: rotateY(360deg);
+    z-index: 2;
+}
+.geek {
+    position: absolute;
+    left: 750px;
+    top: 2220px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.geek:hover {
+    transform: rotateY(360deg);
+    z-index: 2;
+}
+
+.nicetext {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 33px;
+    position: relative;
+    left: 900px;
+    top: -175px;
+}
+
+.shop {
+    background-color: #2f2f2f;
+    height: 520px;
+    width: 1920px;
+}
+
+.ourmerch {
+    font-family: 'A1011Helvetika  TYGRA';
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 90px;
+}
+
+.yellow {
+    background-color: #fabc01;
+    height: 350px;
+    width: 1920px;
+}
+
+.merch {
+    opacity: 70%;
+}
+
+.loh1 {
+    transform: scale(0.35);
+    position: absolute;
+    left: -225px;
+    top: 2241px;
+}
+
+.show1 {
+    transform: scale(0.35);
+    position: absolute;
+    left: -225px;
+    top: 2241px;
+    transition: margin 0.5s linear;
+    opacity: 0%;
+}
+.show1:hover{
+    transform: scale(0.35);
+    opacity: 100%;
+}
+
+.loh2 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 80px;
+    top: 2241px;
+}
+
+.show2 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 80px;
+    top: 2241px;
+    transition: margin 0.5s linear;
+    opacity: 0%;
+}
+.show2:hover{
+    transform: scale(0.35);
+    opacity: 100%;
+}
+
+.loh3 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 385px;
+    top: 2241px;
+}
+
+.show3 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 385px;
+    top: 2241px;
+    transition: margin 0.5s linear;
+    opacity: 0%;
+}
+.show3:hover{
+    transform: scale(0.35);
+    opacity: 100%;
+}
+
+.loh4 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 690px;
+    top: 2241px;
+}
+
+.show4 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 690px;
+    top: 2241px;
+    transition: margin 0.5s linear;
+    opacity: 0%;
+}
+.show4:hover{
+    transform: scale(0.35);
+    opacity: 100%;
+}
+
+.loh5 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 995px;
+    top: 2241px;
+}
+
+.show5 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 995px;
+    top: 2241px;
+    transition: margin 0.5s linear;
+    opacity: 0%;
+}
+.show5:hover{
+    transform: scale(0.35);
+    opacity: 100%;
+}
+
+.loh6 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 1300px;
+    top: 2241px;
+}
+
+.show6 {
+    transform: scale(0.35);
+    position: absolute;
+    left: 1300px;
+    top: 2241px;
+    transition: margin 0.5s linear;
+    opacity: 0%;
+}
+.show6:hover{
+    transform: scale(0.35);
+    opacity: 100%;
+}
+
+.tezt1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.tezt2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    left: 365px;
+    top: -38px;
+}
+
+.tezt3 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    left: 670px;
+    top: -86px;
+}
+
+.tezt4 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    left: 975px;
+    top: -136px;
+}
+
+.tezt5 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    left: 1280px;
+    top: -183px;
+}
+
+.tezt6 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    left: 1585px;
+    top: -232px;
+}
+
+.vides {
+    background-color: #2f2f2f;
+    width: 1920px;
+    height: 905px;
+
+}
+
+.lastevents {
+    font-family: 'A1011Helvetika  TYGRA';
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 90px;
+}
+
+.help2 {
+    transform: scale(0.85);
+    position: relative;
+    top: -100px;
+    left: -170px;
+    mix-blend-mode: normal;
+    filter: brightness(95%);
+    opacity: 1000%;
+}
+
+.end {
+    background-color: #2f2f2f;
+    width: 1920px;
+    height: 1265px;
+}
+
+.endtext {
+    font-family: 'A1011Helvetika  TYGRA';
+    color: #fabc01;
+    font-size: 70px;
+    position: relative;
+    left: 90px;
+}
+
+.endimg {
+    filter: brightness(70%);
+    position: relative;
+    top: 30px;
+}
+
+.form {
+    transform: scale(5);
+    position: relative;
+    width: 9.5%;
+    top: -780px;
+    left: 770px;
+    opacity: 80%;
+}
+
+.form2 {
+    transform: scale(5);
+    position: relative;
+    width: 9.5%;
+    top: -600px;
+    left: 770px;
+    opacity: 80%;
+}
+
+.go{
+    transform: scale(3);
+    position: relative;
+    width: 10%;
+    top: -510px;
+    left: 770px;
+    opacity: 80%;
+}
+
+.pr1 {
+    position: absolute;
+    top: 2770px;
+    left: -350px;
+    transform: scale(0.38);
+}
+.pr11 {
+    position: absolute;
+    top: 2770px;
+    left: -350px;
+    transform: scale(0.38);
+    opacity: 0%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.pr11:hover {
+    opacity: 100%;
+}
+
+.pr2 {
+    position: absolute;
+    top: 2770px;
+    left: 265px;
+    transform: scale(0.38);
+}
+.pr22 {
+    position: absolute;
+    top: 2770px;
+    left: 265px;
+    transform: scale(0.38);
+    opacity: 0%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.pr22:hover {
+    opacity: 100%;
+}
+.pr3 {
+    position: absolute;
+    top: 2770px;
+    left: 880px;
+    transform: scale(0.38);
+}
+.pr33 {
+    position: absolute;
+    top: 2770px;
+    left: 880px;
+    transform: scale(0.38);
+    opacity: 0%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.pr33:hover {
+    opacity: 100%;
+}
+
+.pr4 {
+    position: absolute;
+    top: 3150px;
+    left: -390px;
+    transform: scale(0.38);
+}
+.pr44 {
+    position: absolute;
+    top: 3150px;
+    left: -390px;
+    transform: scale(0.38);
+    opacity: 0%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.pr44:hover {
+    opacity: 100%;
+}
+
+.pr5 {
+    position: absolute;
+    top: 3233px;
+    left: 390px;
+    transform: scale(0.45);
+}
+.pr55 {
+    position: absolute;
+    top: 3233px;
+    left: 390px;
+    transform: scale(0.45);
+    opacity: 0%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.pr55:hover {
+    opacity: 100%;
+}
+
+.pr7 {
+    position: absolute;
+    top: 3233px;
+    left: 720px;
+    transform: scale(0.45);
+}
+.pr77 {
+    position: absolute;
+    top: 3233px;
+    left: 720px;
+    transform: scale(0.45);
+    opacity: 0%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.pr77:hover {
+    opacity: 100%;
+}
+
+.pr6 {
+    position: absolute;
+    top: 3233px;
+    left: 1050px;
+    transform: scale(0.45);
+}
+.pr66 {
+    position: absolute;
+    top: 3233px;
+    left: 1050px;
+    transform: scale(0.45);
+    opacity: 0%;
+}
+.pr66:hover {
+    opacity: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.pr8 {
+    position: absolute;
+    top: 3233px;
+    left: 1380px;
+    transform: scale(0.45);
+}
+.pr88 {
+    position: absolute;
+    top: 3233px;
+    left: 1380px;
+    transform: scale(0.45);
+    opacity: 0%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.pr88:hover {
+    opacity: 100%;
+}
+
+font-family: 'Candal', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
